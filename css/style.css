@@ -9613,6 +9613,26 @@ textarea.form-control {
       color: #000000;
       font-style: italic; }
 
+/* Animated background effect */
+.hero {
+  position: relative;
+  overflow: hidden;
+}
+
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  top: 0;
+  left: 0;
+}
+
+/* Ensure text appears above the background animation */
+.hero .text {
+  position: relative;
+  z-index: 1;
+}
 
 
 .private-project {
@@ -9750,3 +9770,4 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+   

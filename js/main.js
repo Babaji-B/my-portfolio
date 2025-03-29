@@ -270,6 +270,18 @@
   });
 
 
+// Initialize particle effect
+particlesJS('particles-js', {
+    particles: {
+        number: { value: 100 },
+        size: { value: 3 },
+        move: { speed: 1 },
+        color: { value: "#ffffff" },
+        line_linked: { enable: true, opacity: 0.3 }
+    }
+});
+
+
 
 
 
