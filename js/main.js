@@ -283,7 +283,8 @@ particlesJS('particles-js', {
 
 
 
-
-
 })(jQuery);
 
+function openChatbot() {
+  window.open("https://portfoliochatbot-babaji.streamlit.app/", "_blank");
+}
